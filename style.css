@@ -3,15 +3,15 @@
 */
 #root *,
 :after,
-:before {
+#root :before {
   border: 0 solid #e2e8f0;
   box-sizing: border-box;
 }
 #root :after,
-:before {
+#root :before {
   --tw-content: "";
 }
-#root  {
+#root {
   -webkit-text-size-adjust: 100%;
   font-family: SharpGrotesk;
   line-height: 1.5;
@@ -31,11 +31,11 @@
   text-decoration: underline dotted;
 }
 #root h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+#root h2,
+#root h3,
+#root h4,
+#root h5,
+#root h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -44,13 +44,13 @@ h6 {
   text-decoration: inherit;
 }
 #root b,
-strong {
+#root strong {
   font-weight: bolder;
 }
 #root code,
-kbd,
-pre,
-samp {
+#root kbd,
+#root pre,
+#root samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
     Liberation Mono, Courier New, monospace;
   font-size: 1em;
@@ -59,7 +59,7 @@ samp {
   font-size: 80%;
 }
 #root sub,
-sup {
+#root sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -77,10 +77,10 @@ sup {
   text-indent: 0;
 }
 #root button,
-input,
-optgroup,
-select,
-textarea {
+#root input,
+#root optgroup,
+#root select,
+#root textarea {
   color: inherit;
   font-family: inherit;
   font-size: 100%;
@@ -89,7 +89,7 @@ textarea {
   padding: 0;
 }
 #root button,
-select {
+#root select {
   text-transform: none;
 }
 #root [type="button"],
@@ -110,7 +110,7 @@ select {
   vertical-align: baseline;
 }
 #root ::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
+#root ::-webkit-outer-spin-button {
   height: auto;
 }
 #root [type="search"] {
@@ -145,13 +145,13 @@ select {
 #root fieldset {
   margin: 0;
 }
-#root fieldset,
+#root fieldset, #root
 legend {
   padding: 0;
 }
-#root menu,
-#root ol,
-#root ul {
+#root menu, #root
+ol, #root
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -159,41 +159,41 @@ legend {
 #root textarea {
   resize: vertical;
 }
-#root input::-webkit-input-placeholder,
-#root textarea::-webkit-input-placeholder {
+#root input::-webkit-input-placeholder, #root
+textarea::-webkit-input-placeholder {
   color: #94a3b8;
   opacity: 1;
 }
-#root input:-ms-input-placeholder,
-#root textarea:-ms-input-placeholder {
+#root input:-ms-input-placeholder, #root
+textarea:-ms-input-placeholder {
   color: #94a3b8;
   opacity: 1;
 }
-#root input::placeholder,
-#root textarea::placeholder {
+#root input::placeholder, #root
+textarea::placeholder {
   color: #94a3b8;
   opacity: 1;
 }
-#root [role="button"],
-#root button {
+#root [role="button"], #root
+button {
   cursor: pointer;
 }
 #root :disabled {
   cursor: default;
 }
-#root audio,
-#root canvas,
-#root embed,
-#root iframe,
-#root img,
-#root object,
-#root svg,
-#root video {
+#root audio, #root
+canvas, #root
+embed, #root
+iframe, #root
+img, #root
+object, #root
+svg, #root
+video {
   display: block;
   vertical-align: middle;
 }
-#root img,
-#root video {
+#root img, #root
+video {
   height: auto;
   max-width: 100%;
 }
@@ -203,8 +203,8 @@ legend {
 #root html {
   font-family: SharpGrotesk, Arial, sans-serif;
 }
-#root *,
-:after,
+#root *, #root
+:after, #root
 :before {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -252,31 +252,27 @@ legend {
 #root .container {
   width: 100%;
 }
- @media (min-width: 640px) {
+@media (min-width: 640px) {
   .container {
     max-width: 640px;
   }
-
 }
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-
 }
- @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
-
 }
- @media (min-width: 1280px) {
+@media (min-width: 1280px) {
   .container {
     max-width: 1280px;
   }
-
 }
- @media (min-width: 1536px) {
+@media (min-width: 1536px) {
   .container {
     max-width: 1536px;
   }
@@ -512,14 +508,14 @@ legend {
 #root .flex-shrink-0 {
   flex-shrink: 0;
 }
-#root .flex-grow,
+#root .flex-grow, #root
 .grow {
   flex-grow: 1;
 }
 #root .translate-x-0 {
   --tw-translate-x: 0px;
 }
-#root .-translate-x-96,
+#root .-translate-x-96, #root
 .translate-x-0 {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
@@ -534,7 +530,7 @@ legend {
 #root .translate-x-96 {
   --tw-translate-x: 24rem;
 }
-#root .transform,
+#root .transform, #root
 .translate-x-96 {
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
@@ -543,13 +539,13 @@ legend {
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
- @-webkit-keyframes spin {
+@-webkit-keyframes spin {
   to {
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn);
   }
 }
- @keyframes spin {
+@keyframes spin {
   to {
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn);
@@ -895,7 +891,7 @@ legend {
   --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
 }
-#root .shadow-2xl,
+#root .shadow-2xl, #root
 .shadow-sm {
   box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
@@ -967,7 +963,7 @@ legend {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-#root .duration-150,
+#root .duration-150, #root
 .transition-all {
   transition-duration: 0.15s;
 }
@@ -1069,12 +1065,12 @@ input[type="range"]:focus::-ms-fill-upper {
 #root [aria-selected="true"] {
   background: #f9eee9;
 }
- @font-face {
+@font-face {
   font-family: SharpGrotesk;
   font-weight: 500;
   src: url(https://assets.website-files.com/60f85e33b5a89c7e65d83755/60f85e33b5a89c0ff9d83787_SharpGroteskMedium20.otf);
 }
- @font-face {
+@font-face {
   font-family: SharpSans;
   src: url(https://assets.website-files.com/60f85e33b5a89c7e65d83755/60f85e33b5a89c4d7ad83785_SharpSansNo1-Medium.otf);
 }
@@ -1154,13 +1150,13 @@ input[type="range"]:focus::-ms-fill-upper {
 #root .disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
- @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .dark\:text-gray-600 {
     --tw-text-opacity: 1;
     color: rgb(71 85 105 / var(--tw-text-opacity));
   }
 }
- @media (min-width: 640px) {
+@media (min-width: 640px) {
   .sm\:order-2 {
     order: 2;
   }
@@ -1183,9 +1179,8 @@ input[type="range"]:focus::-ms-fill-upper {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-
 }
- @media (min-width: 768px) {
+@media (min-width: 768px) {
   .md\:-m-2 {
     margin: -0.5rem;
   }
@@ -1195,15 +1190,14 @@ input[type="range"]:focus::-ms-fill-upper {
   #root .md\:text-\[2\.7vw\] {
     font-size: 2.7vw;
   }
-  
 }
- @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
- @media (min-width: 1280px) {
+@media (min-width: 1280px) {
   .xl\:ml-4 {
     margin-left: 1rem;
   }
@@ -1228,25 +1222,23 @@ input[type="range"]:focus::-ms-fill-upper {
   #root .xl\:text-\[1\.1vw\] {
     font-size: 1.1vw;
   }
-
 }
- @media (min-width: 1536px) {
+@media (min-width: 1536px) {
   .\32xl\:w-\[100vh\] {
     width: 100vh;
   }
-
 }
 
 #root #hachure-angle-slider::-webkit-slider-thumb {
   background: url("https://uploads-ssl.webflow.com/60f85e33b5a89c7e65d83755/6298d703e5e45995b9e6ec67_line.svg") !important;
-  background-repeat: no-repeat  !important;
-  background-size: cover  !important;
-  transform: rotate(135.5deg)  !important;
-  }
-  
-  #root #hachure-angle-slider::-moz-range-thumb {
-  background: url("https://uploads-ssl.webflow.com/60f85e33b5a89c7e65d83755/6298d703e5e45995b9e6ec67_line.svg")  !important;
-  background-repeat: no-repeat  !important;
-  background-size: cover  !important;
-  transform: rotate(135.5deg)  !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transform: rotate(135.5deg) !important;
+}
+
+#root #hachure-angle-slider::-moz-range-thumb {
+  background: url("https://uploads-ssl.webflow.com/60f85e33b5a89c7e65d83755/6298d703e5e45995b9e6ec67_line.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  transform: rotate(135.5deg) !important;
 }
